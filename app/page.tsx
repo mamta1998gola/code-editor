@@ -1,7 +1,6 @@
-import type { AppProps } from "next/app";
 import EditorPage from "@/pages/editor";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp() {
   return <EditorPage />;
 }
 
